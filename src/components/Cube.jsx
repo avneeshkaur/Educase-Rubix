@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { RubiksCube } from '../utils/cubeUtils';
-import './Cube.css';
+import './cube.css';
 
 const cube = new RubiksCube();
 

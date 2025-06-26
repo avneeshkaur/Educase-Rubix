@@ -1,12 +1,60 @@
-# React + Vite
+# Educase Rubik's Cube Solver 🎯
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive 3D-like **Rubik’s Cube simulator and solver** built using **React, Vite, and Tailwind CSS**. This project was created as part of the Educase India Frontend Assignment.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+👉 [Click here to play](https://your-netlify-url.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Features
 
-## Expanding the ESLint configuration
+- 🎨 Flat 2D visual layout of Rubik’s Cube (6 colored faces: U, D, L, R, F, B)
+- 🔄 Manual cube face rotation with UI buttons and keyboard keys
+- 🧠 Scramble and Solve functionality
+- 🧮 Move counter with Reset option
+- ⌨️ Keyboard controls (U, D, L, R, F, B for rotations)
+- ✅ Responsive and mobile-friendly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Tech Stack
+
+- **React + Vite**
+- **Tailwind CSS**
+- **JavaScript OOP** (Cube logic in `cubeUtils.js`)
+
+## 📂 Folder Structure
+
+src/
+├── components/
+│ └── Cube.jsx
+│ └── cube.css
+├── utils/
+│ └── cubeUtils.js
+├── App.jsx
+├── main.jsx
+
+bash
+Copy
+Edit
+
+## 🛠️ How to Run Locally
+
+```bash
+git clone https://github.com/avneeshkaur/Educase-Rubix.git
+cd Educase-Rubix
+npm install
+npm run dev
+📤 Build for Production
+bash
+Copy
+Edit
+npm run build
+💡 Future Improvements
+3D cube rendering using Three.js
+
+Realistic rotation animations
+
+Timer and leaderboard
+
+👩‍💻 Developed by
+Avneesh Kaur
+Frontend Developer
+LinkedIn • GitHub
